@@ -25,6 +25,11 @@ a {
     text-decoration: none;
 }
 
+.iconimg {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
 .menu {
     width: calc(100% - 4em);
     height: 2em;
@@ -40,7 +45,7 @@ a {
 }
 
 .menu_small_icon {
-    display: none;
+    display: none
 }
 
 .menu-small {
@@ -72,6 +77,10 @@ footer {
     height: 15vh;
 }
 
+.icon {
+    display: flex;
+}
+
 .search {
     display: flex;
     margin-left: 24%;
@@ -95,7 +104,7 @@ footer {
 }
 
 .team {
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 50px;
     display: flex;
 }
@@ -114,11 +123,6 @@ footer {
     font-size: 2em;
 }
 
-.icon {
-    margin-right: 2%;
-    margin-top: 3px;
-}
-
 .logoimg {
     width: 15%;
     height: auto;
@@ -128,6 +132,11 @@ footer {
 h2 {
     color: white;
     font-size: 70px;
+}
+
+.line {
+    height: 5px;
+    background-color: black;
 }
 
 .cd {
@@ -140,6 +149,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    margin-top: 15%;
 }
 
 .cdbutton {
@@ -192,6 +202,22 @@ h2 {
 
 .search_mobile {
     display: none;
+}
+
+.sliderSlick {
+    height: 23vh;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 50px;
 }
 
 @media (max-width: 650px) {
